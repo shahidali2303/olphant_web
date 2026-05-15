@@ -37,7 +37,7 @@ const SplitHero = () => {
           </div>
           {/* Mobile Fallback Image */}
           <img
-            src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
+            src={image1}
             className="md:hidden absolute right-0 bottom-0 h-full w-1/2 object-cover opacity-30"
           />
         </div>
